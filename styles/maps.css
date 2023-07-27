@@ -1,0 +1,23 @@
+#maps {
+    margin: 20px;
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    place-items: center;
+    align-items: center;
+}
+.mapa {
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #00000080;
+}
+
+@media (max-width: 600px) {
+    #maps {
+        margin: 0;
+    }
+    .mapa {
+        width: 100%;
+        max-width: 200px;
+    }
+}
