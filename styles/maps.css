@@ -1,7 +1,7 @@
 #maps {
     margin: 20px;
     width: 100%;
-    height: 60vh;
+    height: 80vh;
     display: grid;
     place-items: center;
     align-items: center;
@@ -15,6 +15,7 @@
 @media (max-width: 600px) {
     #maps {
         margin: 0;
+        height: 60vh;
     }
     .mapa {
         width: 100%;

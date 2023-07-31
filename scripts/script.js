@@ -29,3 +29,8 @@ close_menu.addEventListener("click", () => {
     // div_menu_responsivo.classList.toggle( "menu_responsivo" );
     div_menu_responsivo.classList.toggle( "menu_ativo" );
 })
+
+const btn_saiba_mais = document.querySelector(".card_services_title_btn");
+const div_services = document.querySelector("#services");
+
+
