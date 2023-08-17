@@ -34,3 +34,13 @@ const btn_saiba_mais = document.querySelector(".card_services_title_btn");
 const div_services = document.querySelector("#services");
 
 
+
+// fechando menu responsivo apos clicar em um link
+
+const list_menu = document.querySelectorAll(".list_menu");
+
+list_menu.forEach( (element) => {
+    element.addEventListener("click", () => {
+        div_menu_responsivo.classList.toggle( "menu_ativo" );
+    })
+})

@@ -123,6 +123,14 @@
 
 
 @media (max-width: 600px) {
+    #header {
+        padding: 30px;
+    }
+    #logo {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.3rem;
+    }
+
     .menu {
         display: none;
     }
